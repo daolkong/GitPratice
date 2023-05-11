@@ -117,7 +117,7 @@ struct key: View {
                 HStack{
                     
                     Text("#")
-                        .font(.system(size: 37))
+                        .font(.system(size: 20))
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
                         .clipShape(Circle())
@@ -133,10 +133,38 @@ struct key: View {
                         .clipShape(Circle())
                     
                     Text("*")
-                        .font(.system(size: 37))
+                        .font(.system(size: 36))
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
                         .clipShape(Circle())
+                }
+                HStack{
+                    
+                    
+                    
+                    VStack {
+                        Image(systemName: "phone.fill")
+                            .font(.system(size: 37))
+                            .foregroundColor(.white)
+                        
+                    }
+                        .frame(width: 78, height: 78)
+                        .background(( Color.green))
+                        .clipShape(Circle())
+
+                    VStack {
+                        Image(systemName: "delete.backward.fill")
+                            .font(.system(size: 37))
+                            .foregroundColor(Color(UIColor.systemGray5))
+                        
+                    }
+                        .frame(width: 78, height: 78)
+                        .background(( Color.black))
+                        .clipShape(Circle())
+                    
+                    
+                    
+
                 }
 
                
