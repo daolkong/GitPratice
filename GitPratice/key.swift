@@ -13,8 +13,7 @@ struct key: View {
             Text("2")
                 .font(.system(size: 36))
                 .fontWeight(.regular)
-                .padding()
-            
+                .lineSpacing(11)
             
             Button(action: {
             }) {
@@ -36,9 +35,9 @@ struct key: View {
                         Text("A B C")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     VStack {
                         Text("3")
@@ -46,9 +45,9 @@ struct key: View {
                         Text("D E F")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                 }
                 HStack{
                     
@@ -58,9 +57,9 @@ struct key: View {
                         Text("G H I")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     VStack {
                         Text("5")
@@ -68,9 +67,9 @@ struct key: View {
                         Text("J K L")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     VStack {
                         Text("6")
@@ -78,9 +77,9 @@ struct key: View {
                         Text("M N O")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                 }
                 HStack{
                     
@@ -90,9 +89,9 @@ struct key: View {
                         Text("P Q R S")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     VStack {
                         Text("8")
@@ -100,9 +99,9 @@ struct key: View {
                         Text("T U V")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     VStack {
                         Text("9")
@@ -110,12 +109,11 @@ struct key: View {
                         Text("W X Y Z")
                             .font(.system(size: 10))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                 }
                 HStack{
-                    
                     Text("#")
                         .font(.system(size: 20))
                         .frame(width: 78, height: 78)
@@ -128,9 +126,9 @@ struct key: View {
                         Text("+")
                             .font(.system(size: 14))
                     }
-                        .frame(width: 78, height: 78)
-                        .background((Color(UIColor.systemGray5)))
-                        .clipShape(Circle())
+                    .frame(width: 78, height: 78)
+                    .background((Color(UIColor.systemGray5)))
+                    .clipShape(Circle())
                     
                     Text("*")
                         .font(.system(size: 36))
@@ -140,42 +138,27 @@ struct key: View {
                 }
                 HStack{
                     
-                    
-                    
                     VStack {
                         Image(systemName: "phone.fill")
                             .font(.system(size: 37))
                             .foregroundColor(.white)
                         
                     }
-                        .frame(width: 78, height: 78)
-                        .background(( Color.green))
-                        .clipShape(Circle())
-
+                    .frame(width: 78, height: 78)
+                    .background(( Color.green))
+                    .clipShape(Circle())
+                    
                     VStack {
-                        Image(systemName: "delete.backward.fill")
-                            .font(.system(size: 37))
-                            .foregroundColor(Color(UIColor.systemGray5))
+                        Image("keyw")
+                        
                         
                     }
-                        .frame(width: 78, height: 78)
-                        .background(( Color.black))
-                        .clipShape(Circle())
                     
-                    
-                    
-
                 }
-
-               
                 
             }
             
-            
-            
         }
-        
-        
     }
 }
 
