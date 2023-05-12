@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		048865DD2A0C75E50084158C /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865DC2A0C75E50084158C /* key.swift */; };
-		048865E12A0C945B0084158C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865E02A0C945B0084158C /* SwiftUIView.swift */; };
 		33FE827A2A0B29F20030B35A /* GitPraticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE82792A0B29F20030B35A /* GitPraticeApp.swift */; };
 		33FE827C2A0B29F20030B35A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE827B2A0B29F20030B35A /* ContentView.swift */; };
 		33FE827E2A0B29F40030B35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FE827D2A0B29F40030B35A /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		048865DC2A0C75E50084158C /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
-		048865E02A0C945B0084158C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		33FE82762A0B29F20030B35A /* GitPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FE82792A0B29F20030B35A /* GitPraticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPraticeApp.swift; sourceTree = "<group>"; };
 		33FE827B2A0B29F20030B35A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			children = (
 				33FE82792A0B29F20030B35A /* GitPraticeApp.swift */,
 				33FE827B2A0B29F20030B35A /* ContentView.swift */,
-				048865E02A0C945B0084158C /* SwiftUIView.swift */,
 				048865DC2A0C75E50084158C /* key.swift */,
 				33FE827D2A0B29F40030B35A /* Assets.xcassets */,
 				33FE827F2A0B29F40030B35A /* Preview Content */,
@@ -145,7 +142,6 @@
 			files = (
 				33FE827C2A0B29F20030B35A /* ContentView.swift in Sources */,
 				048865DD2A0C75E50084158C /* key.swift in Sources */,
-				048865E12A0C945B0084158C /* SwiftUIView.swift in Sources */,
 				33FE827A2A0B29F20030B35A /* GitPraticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -171,6 +171,18 @@ struct key: View {
                 HStack{
                     
                     VStack {
+                        Text("7")
+                            .font(.system(size: 37))
+                            .foregroundColor(Color.clear)
+                        Text("P Q R S")
+                            .font(.system(size: 10))
+                            .foregroundColor(Color.clear)
+                    }
+                    .frame(width: 70, height: 78)
+                    .background(Color.clear)
+                    .clipShape(Circle())
+                    
+                    VStack {
                         Image(systemName: "phone.fill")
                             .font(.system(size: 37))
                             .foregroundColor(.white)
@@ -188,8 +200,7 @@ struct key: View {
                 }
                 Spacer()
                     .frame(height:57.8)
-                
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 200))
+        
                 
             }
             
