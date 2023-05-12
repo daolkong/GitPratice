@@ -11,17 +11,20 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            Text("즐겨찾기")
+            Circle()
+                .foregroundColor(Color.white)
                 .tabItem {
                     Image(systemName: "star.fill")
                     Text("즐겨찾기")
                 }
-            Text("Another Tab")
+            Circle()
+                .foregroundColor(Color.white)
                 .tabItem {
                     Image(systemName: "clock.fill")
                     Text("최근 통화")
                 }
-            Text("The Last Tab")
+            Circle()
+                .foregroundColor(Color.white)
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill")
                     Text("연락처")
@@ -31,7 +34,8 @@ struct ContentView: View {
                     Image(systemName: "circle.grid.3x3.fill")
                     Text("키패드")
                 }
-            Text("The Last Tab")
+            Circle()
+                .foregroundColor(Color.white)
                 .tabItem {
                     Image(systemName: "recordingtape")
                     Text("음성 사서함")

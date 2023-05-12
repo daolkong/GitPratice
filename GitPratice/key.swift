@@ -1,25 +1,26 @@
-//
-//  key.swift
-//  GitPratice
-//
-//  Created by 권아림 on 2023/05/11.
-//
+
 
 import SwiftUI
 
 struct key: View {
     var body: some View {
         VStack {
+            Spacer()
+                .frame(height:60)
+            
             Text("2")
                 .font(.system(size: 36))
                 .fontWeight(.regular)
                 .lineSpacing(11)
+            Spacer()
+                .frame(height:11)
             
             Button(action: {
             }) {
                 Text("번호 추가")
             }
-            
+            Spacer()
+                .frame(height:79)
             VStack{
                 HStack{
                     
@@ -28,6 +29,8 @@ struct key: View {
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
                         .clipShape(Circle())
+                    Spacer()
+                        .frame(width:24)
                     
                     VStack {
                         Text("2")
@@ -39,6 +42,9 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                     
+                    Spacer()
+                        .frame(width:24)
+                    
                     VStack {
                         Text("3")
                             .font(.system(size: 37))
@@ -49,6 +55,8 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                 }
+                Spacer()
+                    .frame(height:18)
                 HStack{
                     
                     VStack {
@@ -61,6 +69,9 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                     
+                    Spacer()
+                        .frame(width:24)
+                    
                     VStack {
                         Text("5")
                             .font(.system(size: 37))
@@ -70,6 +81,9 @@ struct key: View {
                     .frame(width: 78, height: 78)
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
+                    
+                    Spacer()
+                        .frame(width:24)
                     
                     VStack {
                         Text("6")
@@ -81,6 +95,8 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                 }
+                Spacer()
+                    .frame(height:18)
                 HStack{
                     
                     VStack {
@@ -93,6 +109,9 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                     
+                    Spacer()
+                        .frame(width:24)
+                    
                     VStack {
                         Text("8")
                             .font(.system(size: 37))
@@ -102,6 +121,9 @@ struct key: View {
                     .frame(width: 78, height: 78)
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
+                    
+                    Spacer()
+                        .frame(width:24)
                     
                     VStack {
                         Text("9")
@@ -113,12 +135,17 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                 }
+                Spacer()
+                    .frame(height:18)
                 HStack{
-                    Text("#")
+                    Text("*")
                         .font(.system(size: 20))
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
                         .clipShape(Circle())
+                    
+                    Spacer()
+                        .frame(width:24)
                     
                     VStack {
                         Text("0")
@@ -130,12 +157,17 @@ struct key: View {
                     .background((Color(UIColor.systemGray5)))
                     .clipShape(Circle())
                     
-                    Text("*")
+                    Spacer()
+                        .frame(width:24)
+                    
+                    Text("#")
                         .font(.system(size: 36))
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
                         .clipShape(Circle())
                 }
+                Spacer()
+                    .frame(height:18)
                 HStack{
                     
                     VStack {
@@ -148,13 +180,16 @@ struct key: View {
                     .background(( Color.green))
                     .clipShape(Circle())
                     
-                    VStack {
-                        Image("keyw")
-                        
-                        
-                    }
+                    Spacer()
+                        .frame(width:45)
+                    
+                    Image("keyw")
                     
                 }
+                Spacer()
+                    .frame(height:57.8)
+                
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 200))
                 
             }
             
