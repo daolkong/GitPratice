@@ -138,7 +138,7 @@ struct key: View {
                 Spacer()
                     .frame(height:18)
                 HStack{
-                    Text("*")
+                    Image(systemName: "asterisk")
                         .font(.system(size: 20))
                         .frame(width: 78, height: 78)
                         .background((Color(UIColor.systemGray5)))
@@ -178,7 +178,7 @@ struct key: View {
                             .font(.system(size: 10))
                             .foregroundColor(Color.clear)
                     }
-                    .frame(width: 70, height: 78)
+                    .frame(width: 68, height: 78)
                     .background(Color.clear)
                     .clipShape(Circle())
                     
