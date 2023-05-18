@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044C52112A15B90A0028E305 /* FirstKeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C52102A15B90A0028E305 /* FirstKeyPad.swift */; };
 		048865DD2A0C75E50084158C /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865DC2A0C75E50084158C /* key.swift */; };
 		048865E32A0DCBA50084158C /* TIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865E22A0DCBA50084158C /* TIP.swift */; };
+		048865E52A0DDF950084158C /* SuperImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865E42A0DDF950084158C /* SuperImage.swift */; };
+		048865E72A0DE66F0084158C /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048865E62A0DE66F0084158C /* Stories.swift */; };
 		33FE827A2A0B29F20030B35A /* GitPraticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE82792A0B29F20030B35A /* GitPraticeApp.swift */; };
 		33FE827C2A0B29F20030B35A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE827B2A0B29F20030B35A /* ContentView.swift */; };
 		33FE827E2A0B29F40030B35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FE827D2A0B29F40030B35A /* Assets.xcassets */; };
@@ -16,8 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044C52102A15B90A0028E305 /* FirstKeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstKeyPad.swift; sourceTree = "<group>"; };
 		048865DC2A0C75E50084158C /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
 		048865E22A0DCBA50084158C /* TIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIP.swift; sourceTree = "<group>"; };
+		048865E42A0DDF950084158C /* SuperImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperImage.swift; sourceTree = "<group>"; };
+		048865E62A0DE66F0084158C /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 		33FE82762A0B29F20030B35A /* GitPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FE82792A0B29F20030B35A /* GitPraticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPraticeApp.swift; sourceTree = "<group>"; };
 		33FE827B2A0B29F20030B35A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044C52122A15B9120028E305 /* KeyPad */ = {
+			isa = PBXGroup;
+			children = (
+				044C52102A15B90A0028E305 /* FirstKeyPad.swift */,
+			);
+			path = KeyPad;
+			sourceTree = "<group>";
+		};
+		044C52132A15B9270028E305 /* NumberData */ = {
+			isa = PBXGroup;
+			children = (
+				33FE827B2A0B29F20030B35A /* ContentView.swift */,
+				048865DC2A0C75E50084158C /* key.swift */,
+				33FE82792A0B29F20030B35A /* GitPraticeApp.swift */,
+			);
+			path = NumberData;
+			sourceTree = "<group>";
+		};
+		044C52142A15B94C0028E305 /* TIPAPP */ = {
+			isa = PBXGroup;
+			children = (
+				048865E42A0DDF950084158C /* SuperImage.swift */,
+				048865E22A0DCBA50084158C /* TIP.swift */,
+				048865E62A0DE66F0084158C /* Stories.swift */,
+			);
+			path = TIPAPP;
+			sourceTree = "<group>";
+		};
 		33FE826D2A0B29F20030B35A = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +89,9 @@
 		33FE82782A0B29F20030B35A /* GitPratice */ = {
 			isa = PBXGroup;
 			children = (
-				33FE82792A0B29F20030B35A /* GitPraticeApp.swift */,
-				33FE827B2A0B29F20030B35A /* ContentView.swift */,
-				048865DC2A0C75E50084158C /* key.swift */,
-				048865E22A0DCBA50084158C /* TIP.swift */,
+				044C52132A15B9270028E305 /* NumberData */,
+				044C52122A15B9120028E305 /* KeyPad */,
+				044C52142A15B94C0028E305 /* TIPAPP */,
 				33FE827D2A0B29F40030B35A /* Assets.xcassets */,
 				33FE827F2A0B29F40030B35A /* Preview Content */,
 			);
@@ -143,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044C52112A15B90A0028E305 /* FirstKeyPad.swift in Sources */,
 				33FE827C2A0B29F20030B35A /* ContentView.swift in Sources */,
 				048865E32A0DCBA50084158C /* TIP.swift in Sources */,
+				048865E52A0DDF950084158C /* SuperImage.swift in Sources */,
+				048865E72A0DE66F0084158C /* Stories.swift in Sources */,
 				048865DD2A0C75E50084158C /* key.swift in Sources */,
 				33FE827A2A0B29F20030B35A /* GitPraticeApp.swift in Sources */,
 			);

@@ -1,20 +1,24 @@
 //
-//  TIP.swift
+//  FirstKeyPad.swift
 //  GitPratice
 //
-//  Created by 권아림 on 2023/05/12.
+//  Created by 권아림 on 2023/05/18.
 //
 
 import SwiftUI
 
-struct TIP: View {
+struct FirstKeyPad: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct TIP_Previews: PreviewProvider {
+
+
+
+
+struct FirstKeyPad_Previews: PreviewProvider {
     static var previews: some View {
-        TIP()
+        FirstKeyPad()
     }
 }
